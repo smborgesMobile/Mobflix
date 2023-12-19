@@ -1,4 +1,4 @@
-package br.com.mobflix.designsystem.pills
+package br.com.mobflix.designsystem.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

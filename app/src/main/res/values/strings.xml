@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MobFlix</string>
+    <string name="front_end">Front End</string>
+    <string name="programa_o">Programação</string>
+    <string name="mobile">Mobile</string>
 </resources>
