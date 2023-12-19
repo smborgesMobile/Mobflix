@@ -17,12 +17,12 @@ import br.com.mobflix.ui.theme.Purple40
 
 
 @Composable
-fun Fab(modifier: Modifier = Modifier) {
+fun Fab(modifier: Modifier = Modifier, onClick: (() -> Unit)) {
     FloatingActionButton(
         modifier = modifier
             .padding(16.dp)
             .clip(RoundedCornerShape(50.dp)),
-        onClick = { },
+        onClick = { onClick() },
         containerColor = Purple40,
         contentColor = Color.White,
     ) {
@@ -37,5 +37,7 @@ fun Fab(modifier: Modifier = Modifier) {
 @Preview
 @Composable
 fun FabPreview() {
-    Fab()
+    Fab {
+        
+    }
 }
