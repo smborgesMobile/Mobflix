@@ -6,8 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import br.com.mobflix.entities.VideoItemModel
-import br.com.mobflix.ui.screen.AppVideoScreen
 import br.com.mobflix.ui.screen.HomeScreen
+import br.com.mobflix.ui.screen.viewmodel.AppVideoScreen
 
 @Composable
 fun ComposeNavigation(videoItemList: List<VideoItemModel>) {
@@ -17,7 +17,7 @@ fun ComposeNavigation(videoItemList: List<VideoItemModel>) {
             HomeScreen(videoItemList, navController)
         }
         composable(AppNavRoute.NEW_VIDEO.route) {
-            AppVideoScreen()
+            AppVideoScreen(navController)
         }
     }
 }

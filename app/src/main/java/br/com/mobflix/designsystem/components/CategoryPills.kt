@@ -21,9 +21,9 @@ import br.com.mobflix.R
 import br.com.mobflix.ui.dimens.dimens
 
 @Composable
-fun CategoryPills(title: String, color: Color) {
+fun CategoryPills(title: String, color: Color, modifier: Modifier = Modifier) {
     Box(
-        modifier = Modifier
+        modifier = modifier
             .clip(MaterialTheme.shapes.small)
             .background(color = color)
             .padding(MaterialTheme.dimens.small)

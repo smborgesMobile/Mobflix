@@ -64,7 +64,8 @@ fun CustomEditText(
                 disabledIndicatorColor = Color.Transparent,
                 textColor = Color.White
             ),
-            textStyle = MaterialTheme.typography.bodyMedium
+            textStyle = MaterialTheme.typography.bodyMedium,
+            maxLines = 1
         )
     }
 }

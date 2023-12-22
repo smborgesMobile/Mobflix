@@ -12,4 +12,6 @@
     <string name="categoria">Categoria</string>
     <string name="mobile_front_end">Mobile, Front-end...</string>
     <string name="cadastrar">Cadastrar</string>
+    <string name="there_is_no_data_selected">There is no data selected</string>
+    <string name="you_have_unsaved_changes_are_you_sure_you_want_to_leave">You have unsaved changes. Are you sure you want to leave?</string>
 </resources>
