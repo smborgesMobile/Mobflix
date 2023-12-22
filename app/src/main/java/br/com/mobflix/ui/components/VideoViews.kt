@@ -26,7 +26,7 @@ fun VideoItemView(videoItemModel: VideoItemModel) {
             modifier = Modifier
                 .fillMaxWidth()
                 .height(220.dp)
-                .clip(RoundedCornerShape(24.dp))
+                .clip(RoundedCornerShape(10.dp))
                 .padding(top = 8.dp, bottom = 16.dp),
             contentScale = ContentScale.Crop
         )
@@ -49,7 +49,7 @@ fun VideoItemViewPreview() {
         VideoItemView(
             videoItemModel = VideoItemModel(
                 category = "Front End",
-                videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
+                videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
                 videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
             )
         )
@@ -58,22 +58,22 @@ fun VideoItemViewPreview() {
             videoList = listOf(
                 VideoItemModel(
                     category = "Front End",
-                    videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
-                    videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
+                    videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
+                    videoUrl = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg"
                 ),
                 VideoItemModel(
                     category = "Front End",
-                    videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
-                    videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
+                    videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
+                    videoUrl = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg"
                 ),
                 VideoItemModel(
                     category = "Front End",
-                    videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
-                    videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
+                    videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
+                    videoUrl = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg"
                 ), VideoItemModel(
                     category = "Front End",
-                    videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
-                    videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
+                    videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
+                    videoUrl = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg"
                 )
             )
         )

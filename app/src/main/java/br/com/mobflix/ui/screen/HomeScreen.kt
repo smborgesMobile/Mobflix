@@ -55,7 +55,7 @@ fun HomeScreen(videoList: List<VideoItemModel>, navController: NavHostController
                     .padding(padding)
             ) {
                 LargeBanner(
-                    imageUrl = "https://i.ibb.co/5x0qfLH/Banner.png",
+                    imageUrl = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
                     pillText = stringResource(R.string.assista_agora)
                 )
                 PillList()

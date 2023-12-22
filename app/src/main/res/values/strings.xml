@@ -5,4 +5,11 @@
     <string name="mobile">Mobile</string>
     <string name="mobflix">MOBFLIX</string>
     <string name="assista_agora">Assista Agora</string>
+    <string name="video_header_title">Cadastre um vídeo</string>
+    <string name="preview">Preview</string>
+    <string name="url">url</string>
+    <string name="ex_n3h5a0oazsk">Ex: N3h5A0oAzsk</string>
+    <string name="categoria">Categoria</string>
+    <string name="mobile_front_end">Mobile, Front-end...</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>

@@ -31,22 +31,22 @@ class MainActivity : ComponentActivity() {
     private val videoList: List<VideoItemModel> = listOf(
         VideoItemModel(
             category = "Front End",
-            videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
+            videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
             videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
         ),
         VideoItemModel(
             category = "Front End",
-            videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
+            videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
             videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
         ),
         VideoItemModel(
             category = "Front End",
-            videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
+            videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
             videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
         ),
         VideoItemModel(
             category = "Front End",
-            videoThumb = "https://i.ibb.co/5x0qfLH/Banner.png",
+            videoThumb = "https://i.ytimg.com/vi/QtdMcMfDlOY/0.jpg",
             videoUrl = "https://i.ibb.co/5x0qfLH/Banner.png"
         )
     )
